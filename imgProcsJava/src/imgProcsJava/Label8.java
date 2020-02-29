@@ -1,6 +1,8 @@
 package imgProcsJava;
 
 import java.awt.image.*;
+import java.util.HashSet;
+import java.util.Set;
 
 public class Label8 {
     static final int NPASS = 11;
@@ -80,6 +82,22 @@ public class Label8 {
         }
         
         return outImage;
+    }
+    
+    static public int getNumberOfCC(BufferedImage image) {
+    	Set<Integer> colors = new HashSet<Integer>();
+            
+        int w = image.getWidth();
+        int h = image.getHeight();
+        for(int y = 0; y < h; y++) {
+            for(int x = 0; x < w; x++) {
+                int pixel = image.getRGB(x, y);     
+                colors.add(pixel);
+            }
+        }
+        System.out.println("There are "+colors.size()+" colors");
+        
+        return colors.size();
     }
     
 }
