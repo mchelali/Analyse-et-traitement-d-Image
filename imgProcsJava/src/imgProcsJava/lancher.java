@@ -166,13 +166,17 @@ public class lancher {
 		for (int i = 0; i < rows; i++) {
 			for (int j = 0; j < cols; j++) {
 				
-				float pixel = ((image.getRGB(j, i) >> 16) & 0xff);
-				System.out.println("x="+i+";y="+j+"; pix="+pixel);
-				if (pixel < min) {
-					min = pixel;
+				//float pixel = ((image.getRGB(j, i) >> 16) & 0xff);
+				//System.out.println("x="+i+";y="+j+"; pix="+pixel);
+				
+				float[] out = new float[3];
+				image.getRaster().getPixel(j, i, out);
+	            
+				if (out[0] < min) {
+					min = out[0];
 				}
-				if (pixel > max) {
-					max = pixel;
+				if (out[0] > max) {
+					max = out[0];
 				}
 			}	
 		}
@@ -182,8 +186,12 @@ public class lancher {
 		
 		for (int i = 0; i < rows; i++) {
 			for (int j = 0; j < cols; j++) {
-				int pixel = ((image.getRGB(j, i) >> 16) & 0xff);
-				pixel = (int) ( 255 * (pixel - min) / (max - min));
+				int pixel = 0;//((image.getRGB(j, i) >> 16) & 0xff);
+				
+				float[] out = new float[3];
+				image.getRaster().getPixel(j, i, out);
+				
+				pixel = (int) ( 255 * (out[0] - min) / (max - min));
 				int[] new_color = {pixel, pixel, pixel};
 				img.getRaster().setPixel(j, i, new_color);
 			}
@@ -242,8 +250,8 @@ public class lancher {
 	
 	
 	public static BufferedImage getFloatBuuffredImage(int w, int h) {
-        int bands = 4; // 4 bands for ARGB, 3 for RGB etc
-        int[] bandOffsets = {0, 1, 2, 3}; // length == bands, 0 == R, 1 == G, 2 == B and 3 == A
+        int bands = 1; // 4 bands for ARGB, 3 for RGB etc
+        int[] bandOffsets = {0}; // length == bands, 0 == R, 1 == G, 2 == B and 3 == A
 
         // Create a TYPE_FLOAT sample model (specifying how the pixels are stored)
         SampleModel sampleModel = new PixelInterleavedSampleModel(DataBuffer.TYPE_FLOAT, w, h, bands, w  * bands, bandOffsets);
@@ -256,8 +264,8 @@ public class lancher {
         // Create a color model compatible with this sample model/raster (TYPE_FLOAT)
         // Note that the number of bands must equal the number of color components in the 
         // color space (3 for RGB) + 1 extra band if the color model contains alpha 
-        ColorSpace colorSpace = ColorSpace.getInstance(ColorSpace.CS_sRGB);
-        ColorModel colorModel = new ComponentColorModel(colorSpace, true, false, Transparency.TRANSLUCENT, DataBuffer.TYPE_FLOAT);
+        ColorSpace colorSpace = ColorSpace.getInstance(ColorSpace.CS_GRAY);
+        ColorModel colorModel = new ComponentColorModel(colorSpace, false, false, Transparency.TRANSLUCENT, DataBuffer.TYPE_FLOAT);
 
         // And finally create an image with this raster
         BufferedImage image = new BufferedImage(colorModel, raster, colorModel.isAlphaPremultiplied(), null);
@@ -287,8 +295,21 @@ public class lancher {
 	                }
 	            }
 	            //System.out.println("; pixel value = " + conv_pix);
-	            float[] new_pixel_value = {conv_pix, conv_pix, conv_pix, 255};
+	            float[] new_pixel_value = {conv_pix, conv_pix, conv_pix, (float) 255.0};
+	            
 	            output.getRaster().setPixel(j, i, new_pixel_value);
+	            
+	            float[] out = new float[3];
+	            output.getRaster().getPixel(j, i, out);
+	            //int a = (p>>24)&0xff; 
+	            //int r = (p>>16)&0xff; 
+	            //int g = (p>>8)&0xff; 
+	            //int b = p&0xff; 
+	    		
+	            //System.out.println("convRes = " + new_pixel_value[0] + "; " + out[0]);
+	            //System.out.println("\tseted val =>  " + "a = " +  a + " r = " +  r + " g = " + g + " b = " + b);
+	            //.setDataElements(j, i, new_pixel_value);
+	            //
 	        }
 	    }
 		
@@ -306,9 +327,9 @@ public class lancher {
 		
 		
 		// TODO Auto-generated method stub
-		File path = new File("C:\\Users\\mchelali\\Documents\\GitHub\\ImageL3\\Test_Images\\text1.jpg");
+		File path = new File("C:\\Users\\mchelali\\Documents\\GitHub\\ImageL3\\Test_Images\\shapesGray.jpg");
 
-		BufferedImage img = null, conv = null, norm = null;
+		BufferedImage img = null, conv = null, conv2 = null, norm = null, norm2 = null;
 		
 		try {
 			img = ImageIO.read(path);
@@ -321,16 +342,20 @@ public class lancher {
 				   {2, 0, -2},
 				   {1, 0, -1}};
 		
+		int[][] mask2= {{1, 2, 1},
+				   {0, 0, 0},
+				   {-1, -2, -1}};
+		
 		//BufferedImage im_thresh = threshold(img, 245);
 		conv = convolve(img, mask, 3);
+		conv2 = convolve(img, mask2, 3);
 		norm = normalize_minmax(conv);
-		//System.out.println("size of norm " + norm.getHeight() + "; cols = " + norm.getWidth());
-		System.out.println("image = " + img);
-		System.out.println("conv = " + conv);
-		System.out.println("norm = " + norm);
+		norm2 = normalize_minmax(conv2);
+		
 		
 		imshow(img);
 		imshow(norm);
+		imshow(norm2);
 		
 		System.out.print("end of computing");
 		
