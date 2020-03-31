@@ -21,6 +21,7 @@ import javax.swing.JFrame;
 import javax.swing.JLabel;
 
 import imgProcsJava.Label8;
+import imgProcsJava.MorphMath;
 
 public class lancher {
 	
@@ -152,7 +153,6 @@ public class lancher {
 		}
 	}
 	
-	
 	public static BufferedImage normalize_minmax(BufferedImage image) {
 		int rows = image.getHeight();
 		int cols = image.getWidth();
@@ -248,7 +248,6 @@ public class lancher {
 		return im_thresh;
 	}
 	
-	
 	public static BufferedImage getFloatBuuffredImage(int w, int h) {
         int bands = 1; // 4 bands for ARGB, 3 for RGB etc
         int[] bandOffsets = {0}; // length == bands, 0 == R, 1 == G, 2 == B and 3 == A
@@ -316,17 +315,7 @@ public class lancher {
 		return output;
 	}
 	
-	
-	
-	public static void main(String[] args) throws IOException {
-		
-		//exo1();
-		//exo2();
-		
-		//cc();
-		
-		
-		// TODO Auto-generated method stub
+	public static void testCovolution() throws Exception {
 		File path = new File("C:\\Users\\mchelali\\Documents\\GitHub\\ImageL3\\Test_Images\\shapesGray.jpg");
 
 		BufferedImage img = null, conv = null, conv2 = null, norm = null, norm2 = null;
@@ -358,6 +347,42 @@ public class lancher {
 		imshow(norm2);
 		
 		System.out.print("end of computing");
+	}
+	
+	public static void testMorphMath() throws Exception {
+		File path = new File("C:\\Users\\mchelali\\Documents\\GitHub\\ImageL3\\Test_Images\\shapesGray.jpg");
+
+		BufferedImage img = null, binaire = null, img_erode = null, img_dilate = null;
+		
+		try {
+			img = ImageIO.read(path);
+		} catch (IOException e1) {
+			// TODO Auto-generated catch block
+			e1.printStackTrace();
+		}
+		
+		binaire = threshold(img, 240);
+		
+		imshow(binaire);
+		
+		int r = 7; // le rayon de l'élément structurant
+		
+		img_erode = MorphMath.erode(binaire, r);
+		imshow(img_erode);
+		
+		img_dilate = MorphMath.dilate(binaire, r);
+		imshow(img_dilate);
+	}
+	
+	public static void main(String[] args) throws Exception {
+		
+		//exo1();
+		//exo2();
+		
+		//cc();
+		
+		//testCovolution();
+		testMorphMath();
 		
 	}
 

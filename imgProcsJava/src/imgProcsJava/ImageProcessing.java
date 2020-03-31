@@ -9,7 +9,7 @@ import javax.swing.ImageIcon;
 import javax.swing.JFrame;
 import javax.swing.JLabel;
 
-public class lancher {
+public class ImageProcessing {
 	
 	public static void imshow(BufferedImage image) throws IOException {
 	      //Instantiate JFrame 
