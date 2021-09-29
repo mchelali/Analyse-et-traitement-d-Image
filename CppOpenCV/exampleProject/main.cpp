@@ -1,5 +1,6 @@
-#include <stdio.h>
+#include <iostream>
 #include <opencv2/opencv.hpp>
+
 using namespace cv;
 using namespace std;
 
@@ -44,7 +45,7 @@ void shiwHist(int* hist, int ng){
 
 int main()
 {
-
+    cout << "No image data \n" << endl;
     // ----------- Lecture d'une Image ----------------
     
     Mat image = imread("/home/ramoya/Documents/GitHub/Analyse-et-traitement-d-Image/Test_Images/landscape.png");
@@ -85,5 +86,6 @@ int main()
     namedWindow("Display Image", WINDOW_AUTOSIZE );
     imshow("Display Image", image);
     waitKey(0);
+    system("PAUSE");
     return 0;
 }

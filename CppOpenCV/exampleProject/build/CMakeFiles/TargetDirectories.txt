@@ -1,3 +1,0 @@
-/home/ramoya/Documents/GitHub/Analyse-et-traitement-d-Image/CppOpenCV/exampleProject/build/CMakeFiles/rebuild_cache.dir
-/home/ramoya/Documents/GitHub/Analyse-et-traitement-d-Image/CppOpenCV/exampleProject/build/CMakeFiles/edit_cache.dir
-/home/ramoya/Documents/GitHub/Analyse-et-traitement-d-Image/CppOpenCV/exampleProject/build/CMakeFiles/DisplayImage.dir

@@ -1,0 +1,232 @@
+Detecting C compiler ABI info failed to compile with the following output:
+Change Dir: C:/Users/mchelali/Documents/GitHub/Analyse-et-traitement-d-Image/CppOpenCV/exampleProject/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):C:/Program Files (x86)/Microsoft Visual Studio/2019/Community/MSBuild/Current/Bin/MSBuild.exe cmTC_5c574.vcxproj /p:Configuration=Debug /p:Platform=x64 /p:VisualStudioVersion=16.0 /v:m && Microsoft (R) Build Engine version 16.8.3+39993bd9d pour .NET Framework
+Copyright (C) Microsoft Corporation. Tous droits réservés.
+
+  Compilateur d'optimisation Microsoft (R) C/C++ version 19.28.29336 pour x64
+  Copyright (C) Microsoft Corporation. Tous droits réservés.
+  CMakeCCompilerABI.c
+  cl /c /Zi /W3 /WX- /diagnostics:column /Od /Ob0 /D WIN32 /D _WINDOWS /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_5c574.dir\Debug\\" /Fd"cmTC_5c574.dir\Debug\vc142.pdb" /Gd /TC /errorReport:queue "C:\Program Files (x86)\CMake\share\cmake-3.19\Modules\CMakeCCompilerABI.c"
+C:\Program Files (x86)\CMake\share\cmake-3.19\Modules\CMakeCCompilerABI.c : fatal error C1090: Échec de l'appel de l'API PDB, code d'erreur '3' : C:\Users\mchelali\Documents\GitHub\Analyse-et-traitement-d-Image\CppOpenCV\exampleProject\build\CMakeFiles\CMakeTmp\cmTC_5c574.dir\Debug\vc142.pdb [C:\Users\mchelali\Documents\GitHub\Analyse-et-traitement-d-Image\CppOpenCV\exampleProject\build\CMakeFiles\CMakeTmp\cmTC_5c574.vcxproj]
+
+
+
+
+Determining if the C compiler works failed with the following output:
+Change Dir: C:/Users/mchelali/Documents/GitHub/Analyse-et-traitement-d-Image/CppOpenCV/exampleProject/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):C:/Program Files (x86)/Microsoft Visual Studio/2019/Community/MSBuild/Current/Bin/MSBuild.exe cmTC_2f970.vcxproj /p:Configuration=Debug /p:Platform=x64 /p:VisualStudioVersion=16.0 /v:m && Microsoft (R) Build Engine version 16.8.3+39993bd9d pour .NET Framework
+Copyright (C) Microsoft Corporation. Tous droits réservés.
+
+  Compilateur d'optimisation Microsoft (R) C/C++ version 19.28.29336 pour x64
+  Copyright (C) Microsoft Corporation. Tous droits réservés.
+  testCCompiler.c
+  cl /c /Zi /W3 /WX- /diagnostics:column /Od /Ob0 /D WIN32 /D _WINDOWS /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_2f970.dir\Debug\\" /Fd"cmTC_2f970.dir\Debug\vc142.pdb" /Gd /TC /errorReport:queue "C:\Users\mchelali\Documents\GitHub\Analyse-et-traitement-d-Image\CppOpenCV\exampleProject\build\CMakeFiles\CMakeTmp\testCCompiler.c"
+C:\Users\mchelali\Documents\GitHub\Analyse-et-traitement-d-Image\CppOpenCV\exampleProject\build\CMakeFiles\CMakeTmp\testCCompiler.c : fatal error C1090: Échec de l'appel de l'API PDB, code d'erreur '3' : C:\Users\mchelali\Documents\GitHub\Analyse-et-traitement-d-Image\CppOpenCV\exampleProject\build\CMakeFiles\CMakeTmp\cmTC_2f970.dir\Debug\vc142.pdb [C:\Users\mchelali\Documents\GitHub\Analyse-et-traitement-d-Image\CppOpenCV\exampleProject\build\CMakeFiles\CMakeTmp\cmTC_2f970.vcxproj]
+
+
+
+Detecting C compiler ABI info failed to compile with the following output:
+Change Dir: C:/Users/mchelali/Documents/GitHub/Analyse-et-traitement-d-Image/CppOpenCV/exampleProject/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):C:/Program Files (x86)/Microsoft Visual Studio/2019/Community/MSBuild/Current/Bin/MSBuild.exe cmTC_afb45.vcxproj /p:Configuration=Debug /p:Platform=x64 /p:VisualStudioVersion=16.0 /v:m && Microsoft (R) Build Engine version 16.8.3+39993bd9d pour .NET Framework
+Copyright (C) Microsoft Corporation. Tous droits réservés.
+
+  Compilateur d'optimisation Microsoft (R) C/C++ version 19.28.29336 pour x64
+  Copyright (C) Microsoft Corporation. Tous droits réservés.
+  CMakeCCompilerABI.c
+  cl /c /Zi /W3 /WX- /diagnostics:column /Od /Ob0 /D WIN32 /D _WINDOWS /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_afb45.dir\Debug\\" /Fd"cmTC_afb45.dir\Debug\vc142.pdb" /Gd /TC /errorReport:queue "C:\Program Files (x86)\CMake\share\cmake-3.19\Modules\CMakeCCompilerABI.c"
+C:\Program Files (x86)\CMake\share\cmake-3.19\Modules\CMakeCCompilerABI.c : fatal error C1090: Échec de l'appel de l'API PDB, code d'erreur '3' : C:\Users\mchelali\Documents\GitHub\Analyse-et-traitement-d-Image\CppOpenCV\exampleProject\build\CMakeFiles\CMakeTmp\cmTC_afb45.dir\Debug\vc142.pdb [C:\Users\mchelali\Documents\GitHub\Analyse-et-traitement-d-Image\CppOpenCV\exampleProject\build\CMakeFiles\CMakeTmp\cmTC_afb45.vcxproj]
+
+
+
+
+Determining if the C compiler works failed with the following output:
+Change Dir: C:/Users/mchelali/Documents/GitHub/Analyse-et-traitement-d-Image/CppOpenCV/exampleProject/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):C:/Program Files (x86)/Microsoft Visual Studio/2019/Community/MSBuild/Current/Bin/MSBuild.exe cmTC_7f5c6.vcxproj /p:Configuration=Debug /p:Platform=x64 /p:VisualStudioVersion=16.0 /v:m && Microsoft (R) Build Engine version 16.8.3+39993bd9d pour .NET Framework
+Copyright (C) Microsoft Corporation. Tous droits réservés.
+
+  Compilateur d'optimisation Microsoft (R) C/C++ version 19.28.29336 pour x64
+  Copyright (C) Microsoft Corporation. Tous droits réservés.
+  testCCompiler.c
+  cl /c /Zi /W3 /WX- /diagnostics:column /Od /Ob0 /D WIN32 /D _WINDOWS /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_7f5c6.dir\Debug\\" /Fd"cmTC_7f5c6.dir\Debug\vc142.pdb" /Gd /TC /errorReport:queue "C:\Users\mchelali\Documents\GitHub\Analyse-et-traitement-d-Image\CppOpenCV\exampleProject\build\CMakeFiles\CMakeTmp\testCCompiler.c"
+C:\Users\mchelali\Documents\GitHub\Analyse-et-traitement-d-Image\CppOpenCV\exampleProject\build\CMakeFiles\CMakeTmp\testCCompiler.c : fatal error C1090: Échec de l'appel de l'API PDB, code d'erreur '3' : C:\Users\mchelali\Documents\GitHub\Analyse-et-traitement-d-Image\CppOpenCV\exampleProject\build\CMakeFiles\CMakeTmp\cmTC_7f5c6.dir\Debug\vc142.pdb [C:\Users\mchelali\Documents\GitHub\Analyse-et-traitement-d-Image\CppOpenCV\exampleProject\build\CMakeFiles\CMakeTmp\cmTC_7f5c6.vcxproj]
+
+
+
+Detecting C compiler ABI info failed to compile with the following output:
+Change Dir: C:/Users/mchelali/Documents/GitHub/Analyse-et-traitement-d-Image/CppOpenCV/exampleProject/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):C:/Program Files (x86)/Microsoft Visual Studio/2019/Community/MSBuild/Current/Bin/MSBuild.exe cmTC_8c817.vcxproj /p:Configuration=Debug /p:Platform=x64 /p:VisualStudioVersion=16.0 /v:m && Microsoft (R) Build Engine version 16.8.3+39993bd9d pour .NET Framework
+Copyright (C) Microsoft Corporation. Tous droits réservés.
+
+  Compilateur d'optimisation Microsoft (R) C/C++ version 19.28.29336 pour x64
+  Copyright (C) Microsoft Corporation. Tous droits réservés.
+  CMakeCCompilerABI.c
+  cl /c /Zi /W3 /WX- /diagnostics:column /Od /Ob0 /D WIN32 /D _WINDOWS /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_8c817.dir\Debug\\" /Fd"cmTC_8c817.dir\Debug\vc142.pdb" /Gd /TC /errorReport:queue "C:\Program Files (x86)\CMake\share\cmake-3.19\Modules\CMakeCCompilerABI.c"
+C:\Program Files (x86)\CMake\share\cmake-3.19\Modules\CMakeCCompilerABI.c : fatal error C1090: Échec de l'appel de l'API PDB, code d'erreur '3' : C:\Users\mchelali\Documents\GitHub\Analyse-et-traitement-d-Image\CppOpenCV\exampleProject\build\CMakeFiles\CMakeTmp\cmTC_8c817.dir\Debug\vc142.pdb [C:\Users\mchelali\Documents\GitHub\Analyse-et-traitement-d-Image\CppOpenCV\exampleProject\build\CMakeFiles\CMakeTmp\cmTC_8c817.vcxproj]
+
+
+
+
+Determining if the C compiler works failed with the following output:
+Change Dir: C:/Users/mchelali/Documents/GitHub/Analyse-et-traitement-d-Image/CppOpenCV/exampleProject/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):C:/Program Files (x86)/Microsoft Visual Studio/2019/Community/MSBuild/Current/Bin/MSBuild.exe cmTC_6c918.vcxproj /p:Configuration=Debug /p:Platform=x64 /p:VisualStudioVersion=16.0 /v:m && Microsoft (R) Build Engine version 16.8.3+39993bd9d pour .NET Framework
+Copyright (C) Microsoft Corporation. Tous droits réservés.
+
+  Compilateur d'optimisation Microsoft (R) C/C++ version 19.28.29336 pour x64
+  Copyright (C) Microsoft Corporation. Tous droits réservés.
+  testCCompiler.c
+  cl /c /Zi /W3 /WX- /diagnostics:column /Od /Ob0 /D WIN32 /D _WINDOWS /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_6c918.dir\Debug\\" /Fd"cmTC_6c918.dir\Debug\vc142.pdb" /Gd /TC /errorReport:queue "C:\Users\mchelali\Documents\GitHub\Analyse-et-traitement-d-Image\CppOpenCV\exampleProject\build\CMakeFiles\CMakeTmp\testCCompiler.c"
+C:\Users\mchelali\Documents\GitHub\Analyse-et-traitement-d-Image\CppOpenCV\exampleProject\build\CMakeFiles\CMakeTmp\testCCompiler.c : fatal error C1090: Échec de l'appel de l'API PDB, code d'erreur '3' : C:\Users\mchelali\Documents\GitHub\Analyse-et-traitement-d-Image\CppOpenCV\exampleProject\build\CMakeFiles\CMakeTmp\cmTC_6c918.dir\Debug\vc142.pdb [C:\Users\mchelali\Documents\GitHub\Analyse-et-traitement-d-Image\CppOpenCV\exampleProject\build\CMakeFiles\CMakeTmp\cmTC_6c918.vcxproj]
+
+
+
+Detecting C compiler ABI info failed to compile with the following output:
+Change Dir: C:/Users/mchelali/Documents/GitHub/Analyse-et-traitement-d-Image/CppOpenCV/exampleProject/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):C:/Program Files (x86)/Microsoft Visual Studio/2019/Community/MSBuild/Current/Bin/MSBuild.exe cmTC_9c4ac.vcxproj /p:Configuration=Debug /p:Platform=x64 /p:VisualStudioVersion=16.0 /v:m && Microsoft (R) Build Engine version 16.8.3+39993bd9d pour .NET Framework
+Copyright (C) Microsoft Corporation. Tous droits réservés.
+
+  Compilateur d'optimisation Microsoft (R) C/C++ version 19.28.29336 pour x64
+  Copyright (C) Microsoft Corporation. Tous droits réservés.
+  CMakeCCompilerABI.c
+  cl /c /Zi /W3 /WX- /diagnostics:column /Od /Ob0 /D WIN32 /D _WINDOWS /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_9c4ac.dir\Debug\\" /Fd"cmTC_9c4ac.dir\Debug\vc142.pdb" /Gd /TC /errorReport:queue "C:\Program Files (x86)\CMake\share\cmake-3.19\Modules\CMakeCCompilerABI.c"
+C:\Program Files (x86)\CMake\share\cmake-3.19\Modules\CMakeCCompilerABI.c : fatal error C1090: Échec de l'appel de l'API PDB, code d'erreur '3' : C:\Users\mchelali\Documents\GitHub\Analyse-et-traitement-d-Image\CppOpenCV\exampleProject\build\CMakeFiles\CMakeTmp\cmTC_9c4ac.dir\Debug\vc142.pdb [C:\Users\mchelali\Documents\GitHub\Analyse-et-traitement-d-Image\CppOpenCV\exampleProject\build\CMakeFiles\CMakeTmp\cmTC_9c4ac.vcxproj]
+
+
+
+
+Determining if the C compiler works failed with the following output:
+Change Dir: C:/Users/mchelali/Documents/GitHub/Analyse-et-traitement-d-Image/CppOpenCV/exampleProject/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):C:/Program Files (x86)/Microsoft Visual Studio/2019/Community/MSBuild/Current/Bin/MSBuild.exe cmTC_b95b5.vcxproj /p:Configuration=Debug /p:Platform=x64 /p:VisualStudioVersion=16.0 /v:m && Microsoft (R) Build Engine version 16.8.3+39993bd9d pour .NET Framework
+Copyright (C) Microsoft Corporation. Tous droits réservés.
+
+  Compilateur d'optimisation Microsoft (R) C/C++ version 19.28.29336 pour x64
+  Copyright (C) Microsoft Corporation. Tous droits réservés.
+  testCCompiler.c
+  cl /c /Zi /W3 /WX- /diagnostics:column /Od /Ob0 /D WIN32 /D _WINDOWS /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_b95b5.dir\Debug\\" /Fd"cmTC_b95b5.dir\Debug\vc142.pdb" /Gd /TC /errorReport:queue "C:\Users\mchelali\Documents\GitHub\Analyse-et-traitement-d-Image\CppOpenCV\exampleProject\build\CMakeFiles\CMakeTmp\testCCompiler.c"
+C:\Users\mchelali\Documents\GitHub\Analyse-et-traitement-d-Image\CppOpenCV\exampleProject\build\CMakeFiles\CMakeTmp\testCCompiler.c : fatal error C1090: Échec de l'appel de l'API PDB, code d'erreur '3' : C:\Users\mchelali\Documents\GitHub\Analyse-et-traitement-d-Image\CppOpenCV\exampleProject\build\CMakeFiles\CMakeTmp\cmTC_b95b5.dir\Debug\vc142.pdb [C:\Users\mchelali\Documents\GitHub\Analyse-et-traitement-d-Image\CppOpenCV\exampleProject\build\CMakeFiles\CMakeTmp\cmTC_b95b5.vcxproj]
+
+
+
+Detecting C compiler ABI info failed to compile with the following output:
+Change Dir: C:/Users/mchelali/Documents/GitHub/Analyse-et-traitement-d-Image/CppOpenCV/exampleProject/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):C:/Program Files (x86)/Microsoft Visual Studio/2019/Community/MSBuild/Current/Bin/MSBuild.exe cmTC_9da48.vcxproj /p:Configuration=Debug /p:Platform=x64 /p:VisualStudioVersion=16.0 /v:m && Microsoft (R) Build Engine version 16.8.3+39993bd9d pour .NET Framework
+Copyright (C) Microsoft Corporation. Tous droits réservés.
+
+  Compilateur d'optimisation Microsoft (R) C/C++ version 19.28.29336 pour x64
+  Copyright (C) Microsoft Corporation. Tous droits réservés.
+  CMakeCCompilerABI.c
+  cl /c /Zi /W3 /WX- /diagnostics:column /Od /Ob0 /D WIN32 /D _WINDOWS /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_9da48.dir\Debug\\" /Fd"cmTC_9da48.dir\Debug\vc142.pdb" /Gd /TC /errorReport:queue "C:\Program Files (x86)\CMake\share\cmake-3.19\Modules\CMakeCCompilerABI.c"
+C:\Program Files (x86)\CMake\share\cmake-3.19\Modules\CMakeCCompilerABI.c : fatal error C1090: Échec de l'appel de l'API PDB, code d'erreur '3' : C:\Users\mchelali\Documents\GitHub\Analyse-et-traitement-d-Image\CppOpenCV\exampleProject\build\CMakeFiles\CMakeTmp\cmTC_9da48.dir\Debug\vc142.pdb [C:\Users\mchelali\Documents\GitHub\Analyse-et-traitement-d-Image\CppOpenCV\exampleProject\build\CMakeFiles\CMakeTmp\cmTC_9da48.vcxproj]
+
+
+
+
+Determining if the C compiler works failed with the following output:
+Change Dir: C:/Users/mchelali/Documents/GitHub/Analyse-et-traitement-d-Image/CppOpenCV/exampleProject/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):C:/Program Files (x86)/Microsoft Visual Studio/2019/Community/MSBuild/Current/Bin/MSBuild.exe cmTC_9128c.vcxproj /p:Configuration=Debug /p:Platform=x64 /p:VisualStudioVersion=16.0 /v:m && Microsoft (R) Build Engine version 16.8.3+39993bd9d pour .NET Framework
+Copyright (C) Microsoft Corporation. Tous droits réservés.
+
+  Compilateur d'optimisation Microsoft (R) C/C++ version 19.28.29336 pour x64
+  Copyright (C) Microsoft Corporation. Tous droits réservés.
+  testCCompiler.c
+  cl /c /Zi /W3 /WX- /diagnostics:column /Od /Ob0 /D WIN32 /D _WINDOWS /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_9128c.dir\Debug\\" /Fd"cmTC_9128c.dir\Debug\vc142.pdb" /Gd /TC /errorReport:queue "C:\Users\mchelali\Documents\GitHub\Analyse-et-traitement-d-Image\CppOpenCV\exampleProject\build\CMakeFiles\CMakeTmp\testCCompiler.c"
+C:\Users\mchelali\Documents\GitHub\Analyse-et-traitement-d-Image\CppOpenCV\exampleProject\build\CMakeFiles\CMakeTmp\testCCompiler.c : fatal error C1090: Échec de l'appel de l'API PDB, code d'erreur '3' : C:\Users\mchelali\Documents\GitHub\Analyse-et-traitement-d-Image\CppOpenCV\exampleProject\build\CMakeFiles\CMakeTmp\cmTC_9128c.dir\Debug\vc142.pdb [C:\Users\mchelali\Documents\GitHub\Analyse-et-traitement-d-Image\CppOpenCV\exampleProject\build\CMakeFiles\CMakeTmp\cmTC_9128c.vcxproj]
+
+
+
+Detecting C compiler ABI info failed to compile with the following output:
+Change Dir: C:/Users/mchelali/Documents/GitHub/Analyse-et-traitement-d-Image/CppOpenCV/exampleProject/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):C:/Program Files (x86)/Microsoft Visual Studio/2019/Community/MSBuild/Current/Bin/MSBuild.exe cmTC_66d84.vcxproj /p:Configuration=Debug /p:Platform=x64 /p:VisualStudioVersion=16.0 /v:m && Microsoft (R) Build Engine version 16.8.3+39993bd9d pour .NET Framework
+Copyright (C) Microsoft Corporation. Tous droits réservés.
+
+  Compilateur d'optimisation Microsoft (R) C/C++ version 19.28.29336 pour x64
+  Copyright (C) Microsoft Corporation. Tous droits réservés.
+  CMakeCCompilerABI.c
+  cl /c /Zi /W3 /WX- /diagnostics:column /Od /Ob0 /D WIN32 /D _WINDOWS /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_66d84.dir\Debug\\" /Fd"cmTC_66d84.dir\Debug\vc142.pdb" /Gd /TC /errorReport:queue "C:\Program Files (x86)\CMake\share\cmake-3.19\Modules\CMakeCCompilerABI.c"
+C:\Program Files (x86)\CMake\share\cmake-3.19\Modules\CMakeCCompilerABI.c : fatal error C1090: Échec de l'appel de l'API PDB, code d'erreur '3' : C:\Users\mchelali\Documents\GitHub\Analyse-et-traitement-d-Image\CppOpenCV\exampleProject\build\CMakeFiles\CMakeTmp\cmTC_66d84.dir\Debug\vc142.pdb [C:\Users\mchelali\Documents\GitHub\Analyse-et-traitement-d-Image\CppOpenCV\exampleProject\build\CMakeFiles\CMakeTmp\cmTC_66d84.vcxproj]
+
+
+
+
+Determining if the C compiler works failed with the following output:
+Change Dir: C:/Users/mchelali/Documents/GitHub/Analyse-et-traitement-d-Image/CppOpenCV/exampleProject/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):C:/Program Files (x86)/Microsoft Visual Studio/2019/Community/MSBuild/Current/Bin/MSBuild.exe cmTC_45092.vcxproj /p:Configuration=Debug /p:Platform=x64 /p:VisualStudioVersion=16.0 /v:m && Microsoft (R) Build Engine version 16.8.3+39993bd9d pour .NET Framework
+Copyright (C) Microsoft Corporation. Tous droits réservés.
+
+  Compilateur d'optimisation Microsoft (R) C/C++ version 19.28.29336 pour x64
+  Copyright (C) Microsoft Corporation. Tous droits réservés.
+  testCCompiler.c
+  cl /c /Zi /W3 /WX- /diagnostics:column /Od /Ob0 /D WIN32 /D _WINDOWS /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_45092.dir\Debug\\" /Fd"cmTC_45092.dir\Debug\vc142.pdb" /Gd /TC /errorReport:queue "C:\Users\mchelali\Documents\GitHub\Analyse-et-traitement-d-Image\CppOpenCV\exampleProject\build\CMakeFiles\CMakeTmp\testCCompiler.c"
+C:\Users\mchelali\Documents\GitHub\Analyse-et-traitement-d-Image\CppOpenCV\exampleProject\build\CMakeFiles\CMakeTmp\testCCompiler.c : fatal error C1090: Échec de l'appel de l'API PDB, code d'erreur '3' : C:\Users\mchelali\Documents\GitHub\Analyse-et-traitement-d-Image\CppOpenCV\exampleProject\build\CMakeFiles\CMakeTmp\cmTC_45092.dir\Debug\vc142.pdb [C:\Users\mchelali\Documents\GitHub\Analyse-et-traitement-d-Image\CppOpenCV\exampleProject\build\CMakeFiles\CMakeTmp\cmTC_45092.vcxproj]
+
+
+
+Detecting C compiler ABI info failed to compile with the following output:
+Change Dir: C:/Users/mchelali/Documents/GitHub/Analyse-et-traitement-d-Image/CppOpenCV/exampleProject/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):C:/Program Files (x86)/Microsoft Visual Studio/2019/Community/MSBuild/Current/Bin/MSBuild.exe cmTC_cb1e2.vcxproj /p:Configuration=Debug /p:Platform=x64 /p:VisualStudioVersion=16.0 /v:m && Microsoft (R) Build Engine version 16.8.3+39993bd9d pour .NET Framework
+Copyright (C) Microsoft Corporation. Tous droits réservés.
+
+  Compilateur d'optimisation Microsoft (R) C/C++ version 19.28.29336 pour x64
+  Copyright (C) Microsoft Corporation. Tous droits réservés.
+  CMakeCCompilerABI.c
+  cl /c /Zi /W3 /WX- /diagnostics:column /Od /Ob0 /D WIN32 /D _WINDOWS /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_cb1e2.dir\Debug\\" /Fd"cmTC_cb1e2.dir\Debug\vc142.pdb" /Gd /TC /errorReport:queue "C:\Program Files (x86)\CMake\share\cmake-3.19\Modules\CMakeCCompilerABI.c"
+C:\Program Files (x86)\CMake\share\cmake-3.19\Modules\CMakeCCompilerABI.c : fatal error C1090: Échec de l'appel de l'API PDB, code d'erreur '3' : C:\Users\mchelali\Documents\GitHub\Analyse-et-traitement-d-Image\CppOpenCV\exampleProject\build\CMakeFiles\CMakeTmp\cmTC_cb1e2.dir\Debug\vc142.pdb [C:\Users\mchelali\Documents\GitHub\Analyse-et-traitement-d-Image\CppOpenCV\exampleProject\build\CMakeFiles\CMakeTmp\cmTC_cb1e2.vcxproj]
+
+
+
+
+Determining if the C compiler works failed with the following output:
+Change Dir: C:/Users/mchelali/Documents/GitHub/Analyse-et-traitement-d-Image/CppOpenCV/exampleProject/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):C:/Program Files (x86)/Microsoft Visual Studio/2019/Community/MSBuild/Current/Bin/MSBuild.exe cmTC_dfb6b.vcxproj /p:Configuration=Debug /p:Platform=x64 /p:VisualStudioVersion=16.0 /v:m && Microsoft (R) Build Engine version 16.8.3+39993bd9d pour .NET Framework
+Copyright (C) Microsoft Corporation. Tous droits réservés.
+
+  Compilateur d'optimisation Microsoft (R) C/C++ version 19.28.29336 pour x64
+  Copyright (C) Microsoft Corporation. Tous droits réservés.
+  testCCompiler.c
+  cl /c /Zi /W3 /WX- /diagnostics:column /Od /Ob0 /D WIN32 /D _WINDOWS /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_dfb6b.dir\Debug\\" /Fd"cmTC_dfb6b.dir\Debug\vc142.pdb" /Gd /TC /errorReport:queue "C:\Users\mchelali\Documents\GitHub\Analyse-et-traitement-d-Image\CppOpenCV\exampleProject\build\CMakeFiles\CMakeTmp\testCCompiler.c"
+C:\Users\mchelali\Documents\GitHub\Analyse-et-traitement-d-Image\CppOpenCV\exampleProject\build\CMakeFiles\CMakeTmp\testCCompiler.c : fatal error C1090: Échec de l'appel de l'API PDB, code d'erreur '3' : C:\Users\mchelali\Documents\GitHub\Analyse-et-traitement-d-Image\CppOpenCV\exampleProject\build\CMakeFiles\CMakeTmp\cmTC_dfb6b.dir\Debug\vc142.pdb [C:\Users\mchelali\Documents\GitHub\Analyse-et-traitement-d-Image\CppOpenCV\exampleProject\build\CMakeFiles\CMakeTmp\cmTC_dfb6b.vcxproj]
+
+
+
+Detecting C compiler ABI info failed to compile with the following output:
+Change Dir: C:/Users/mchelali/Documents/GitHub/Analyse-et-traitement-d-Image/CppOpenCV/exampleProject/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):C:/Program Files (x86)/Microsoft Visual Studio/2019/Community/MSBuild/Current/Bin/MSBuild.exe cmTC_930c9.vcxproj /p:Configuration=Debug /p:Platform=x64 /p:VisualStudioVersion=16.0 /v:m && Microsoft (R) Build Engine version 16.8.3+39993bd9d pour .NET Framework
+Copyright (C) Microsoft Corporation. Tous droits réservés.
+
+  Compilateur d'optimisation Microsoft (R) C/C++ version 19.28.29336 pour x64
+  Copyright (C) Microsoft Corporation. Tous droits réservés.
+  CMakeCCompilerABI.c
+  cl /c /Zi /W3 /WX- /diagnostics:column /Od /Ob0 /D WIN32 /D _WINDOWS /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_930c9.dir\Debug\\" /Fd"cmTC_930c9.dir\Debug\vc142.pdb" /Gd /TC /errorReport:queue "C:\Program Files (x86)\CMake\share\cmake-3.19\Modules\CMakeCCompilerABI.c"
+C:\Program Files (x86)\CMake\share\cmake-3.19\Modules\CMakeCCompilerABI.c : fatal error C1090: Échec de l'appel de l'API PDB, code d'erreur '3' : C:\Users\mchelali\Documents\GitHub\Analyse-et-traitement-d-Image\CppOpenCV\exampleProject\build\CMakeFiles\CMakeTmp\cmTC_930c9.dir\Debug\vc142.pdb [C:\Users\mchelali\Documents\GitHub\Analyse-et-traitement-d-Image\CppOpenCV\exampleProject\build\CMakeFiles\CMakeTmp\cmTC_930c9.vcxproj]
+
+
+
+
+Determining if the C compiler works failed with the following output:
+Change Dir: C:/Users/mchelali/Documents/GitHub/Analyse-et-traitement-d-Image/CppOpenCV/exampleProject/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):C:/Program Files (x86)/Microsoft Visual Studio/2019/Community/MSBuild/Current/Bin/MSBuild.exe cmTC_2a1f3.vcxproj /p:Configuration=Debug /p:Platform=x64 /p:VisualStudioVersion=16.0 /v:m && Microsoft (R) Build Engine version 16.8.3+39993bd9d pour .NET Framework
+Copyright (C) Microsoft Corporation. Tous droits réservés.
+
+  Compilateur d'optimisation Microsoft (R) C/C++ version 19.28.29336 pour x64
+  Copyright (C) Microsoft Corporation. Tous droits réservés.
+  testCCompiler.c
+  cl /c /Zi /W3 /WX- /diagnostics:column /Od /Ob0 /D WIN32 /D _WINDOWS /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_2a1f3.dir\Debug\\" /Fd"cmTC_2a1f3.dir\Debug\vc142.pdb" /Gd /TC /errorReport:queue "C:\Users\mchelali\Documents\GitHub\Analyse-et-traitement-d-Image\CppOpenCV\exampleProject\build\CMakeFiles\CMakeTmp\testCCompiler.c"
+C:\Users\mchelali\Documents\GitHub\Analyse-et-traitement-d-Image\CppOpenCV\exampleProject\build\CMakeFiles\CMakeTmp\testCCompiler.c : fatal error C1090: Échec de l'appel de l'API PDB, code d'erreur '3' : C:\Users\mchelali\Documents\GitHub\Analyse-et-traitement-d-Image\CppOpenCV\exampleProject\build\CMakeFiles\CMakeTmp\cmTC_2a1f3.dir\Debug\vc142.pdb [C:\Users\mchelali\Documents\GitHub\Analyse-et-traitement-d-Image\CppOpenCV\exampleProject\build\CMakeFiles\CMakeTmp\cmTC_2a1f3.vcxproj]
+
+
+
